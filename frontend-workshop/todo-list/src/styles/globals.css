@@ -1,0 +1,9 @@
+.button-purple {
+  color: yellow;
+  background-color: blueviolet;
+  border-radius: 14px;
+  padding: 14px 24px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+}
