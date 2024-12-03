@@ -1,0 +1,18 @@
+button {
+  color: aqua;
+  background-color: blueviolet;
+  padding: 14px 21px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: green;
+  color: aliceblue;
+}
+
+.delete:hover {
+  background-color: red;
+  color: aliceblue;
+}
