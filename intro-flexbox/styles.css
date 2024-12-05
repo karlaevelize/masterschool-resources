@@ -2,14 +2,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 1px solid hotpink;
+  align-items: center;
+  border: 2px solid hotpink;
 }
 
 .container-squares {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 14px;
-  border: 1px solid purple;
+  border: 2px solid purple;
+  width: 100%;
 }
 
 .parent-container {
