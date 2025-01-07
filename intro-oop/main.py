@@ -6,6 +6,7 @@ class Student:
         self.name = name
         self.age = age
         self.grade = grade
+        self.passed = False
     
     def get_student(self):
         return self.name, self.age, self.grade
