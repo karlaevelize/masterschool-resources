@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "The Beauty of the Pacific Northwest",
+    "text": "The Pacific Northwest is home to some of the most breathtaking hiking trails in the world. From the lush forests of Oregon to the majestic peaks of Washington, adventurers can find endless opportunities to explore nature's beauty.",
+    "likes": 132,
+    "author": "NatureLover99"
+  },
+  {
+    "id": 2,
+    "title": "Mastering Sourdough Baking",
+    "text": "Sourdough baking can be intimidating, but with a few simple tips, anyone can create delicious loaves at home. Learn how to maintain your starter, perfect your dough hydration, and bake bread with a crispy crust and airy crumb.",
+    "likes": 97,
+    "author": "BakingWithJoy"
+  },
+  {
+    "id": 3,
+    "title": "Creating a Productive Home Office",
+    "text": "Setting up a home office doesn't have to be complicated. With the right desk, chair, and lighting, you can create a space that fosters focus and creativity. Add some personal touches to make it your own.",
+    "likes": 245,
+    "author": "WorkFromHomePro"
+  },
+  {
+    "id": 4,
+    "title": "A Guide to Minimalist Living",
+    "text": "Minimalism is about more than decluttering—it's about living with intention. By simplifying your surroundings and focusing on what truly matters, you can create a lifestyle that brings peace and purpose.",
+    "likes": 178,
+    "author": "SimpleLivingGuru"
+  },
+  {
+    "id": 5,
+    "title": "Underrated Travel Destinations",
+    "text": "Skip the crowded tourist spots and discover hidden gems around the world. From charming small towns to remote natural wonders, these destinations offer unique experiences you'll never forget.",
+    "likes": 301,
+    "author": "GlobeTrotter23"
+  },
+  {
+    "id": 6,
+    "title": "Smartphone Trends of 2025",
+    "text": "The world of smartphones is rapidly evolving, with trends like foldable screens, AI-powered features, and enhanced battery life taking center stage. Stay ahead of the curve with the latest innovations.",
+    "likes": 154,
+    "author": "TechTalkDaily"
+  },
+  {
+    "id": 7,
+    "title": "Quick and Healthy Dinner Ideas",
+    "text": "Finding time to cook during a busy week can be a challenge. These ten recipes are not only quick to prepare but also packed with nutrients, ensuring you and your family enjoy delicious and healthy meals.",
+    "likes": 210,
+    "author": "KitchenMagic"
+  },
+  {
+    "id": 8,
+    "title": "A Beginner's Guide to Cryptocurrency",
+    "text": "Cryptocurrency has taken the financial world by storm, but it can be confusing for newcomers. This guide breaks down the basics, from understanding blockchain technology to choosing the right wallet.",
+    "likes": 192,
+    "author": "CryptoEnthusiast"
+  },
+  {
+    "id": 9,
+    "title": "Benefits of Daily Meditation",
+    "text": "Meditation isn't just about relaxation—it's a powerful tool for improving mental clarity, reducing stress, and enhancing focus. Learn how just a few minutes a day can transform your well-being.",
+    "likes": 276,
+    "author": "MindfulJourney"
+  },
+  {
+    "id": 10,
+    "title": "The Joy of Adopting a Rescue Pet",
+    "text": "Rescue pets bring unconditional love and companionship into your life. By adopting, you're giving an animal a second chance at happiness while enriching your own life in countless ways.",
+    "likes": 89,
+    "author": "AnimalLover42"
+  }
+]
