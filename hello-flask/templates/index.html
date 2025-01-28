@@ -9,13 +9,19 @@
     <nav>
       <p>Hello, {{ name }}</p>
     </nav>
-    <h1>Blog Posts</h1>
-    <!-- <div>{{ posts }}</div> -->
+    <h1>My Blog</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis sint, sit
+      culpa dolores labore ipsum voluptas, impedit nemo eos velit iste, illo
+      atque accusamus numquam! Facere perspiciatis officia facilis sapiente?
+    </p>
+    <h2>Posts</h2>
+    <!-- {{ posts }} -->
     <div>
       {% for post in posts %}
-      <h2>{{ post.title }}</h2>
+      <h3>{{ post.title }}</h3>
       <p>{{ post.text }}</p>
-      <a href="/post/{{ post.id }}">Read More</a>
+      <a href="/post/{{ post.id }}">Read more</a>
       <hr />
       {% endfor %}
     </div>

@@ -1,28 +1,26 @@
-# Goals for today: Create a Blog with Flask
-#
-# 1. Create a Homepage with all the blog posts
-# 2. Create a page for each blog post
-
 import json
 from flask import Flask, render_template
 
-# Assign blog posts to variable
+app = Flask(__name__)
+
+# 1. Import the json file
+# 2. Send the json as a variable
+# 3. Render the posts on the screen
+
 with open('posts.json') as file:
     posts = json.load(file)
 
-app = Flask(__name__)
-
-# Route for the homepage: all blog posts
+# Home route
 @app.route('/')
 def home():
     return render_template('index.html', name="Karla", posts=posts)
 
-# About Page
+# About route
 @app.route('/about')
 def about():
-    return render_template('about.html')
+    return 'This is about page'
 
-# Route for each blog post
+# Variable route
 @app.route('/post/<int:post_id>')
 def post(post_id):
     return f'This is post {post_id}'
