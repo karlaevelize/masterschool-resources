@@ -1,0 +1,39 @@
+.parent-container {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  padding: 14px;
+  border-radius: 7px;
+  height: 50vh;
+}
+
+.left-container {
+  background-color: chocolate;
+  display: flex;
+  width: 50%;
+  border-radius: 7px;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 14px;
+  justify-content: space-between;
+}
+
+p {
+  background-color: goldenrod;
+  padding: 7px;
+  border-radius: 7px;
+  color: navy;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  background-color: palevioletred;
+  border: none;
+  padding: 7px;
+  border-radius: 7px;
+}

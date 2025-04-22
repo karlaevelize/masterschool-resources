@@ -24,6 +24,12 @@ def square(number):
 
 # 5. Write a function called `larger` that takes two arguments and returns the larger one.
 
+def larger(number1, number2):
+    if number1 > number2:
+        return number1
+    else:
+        return number2
+
 # 6. Write a function called `calculate_circle_area` that takes one argument (the radius of a circle) and returns the area of the circle.
 
 def calculate_circle_area(r):
@@ -42,5 +48,12 @@ def greet(name):
     return "Hello, " + name
 
 # 9. Write a function called `is_even` that takes a number as an argument and returns `The number is even` if the number is even and `The number is odd` if the number is odd.
+
+def is_even(number):
+    if number % 2 == 0:
+        return "The number is even"
+    else:
+        return "The number is odd"
+
 
 # 10. Write a function called `apply_discount` that takes the price of a product and a discount percentage and returns the final price of the product after the discount.
